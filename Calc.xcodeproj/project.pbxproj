@@ -14,6 +14,8 @@
 		0525DFEC2BA6CEAC003974F7 /* CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525DFEB2BA6CEAC003974F7 /* CalcTests.swift */; };
 		0525DFF62BA6CEAC003974F7 /* CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525DFF52BA6CEAC003974F7 /* CalcUITests.swift */; };
 		0525DFF82BA6CEAC003974F7 /* CalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525DFF72BA6CEAC003974F7 /* CalcUITestsLaunchTests.swift */; };
+		0525E0062BA6CFED003974F7 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525E0052BA6CFED003974F7 /* home.swift */; };
+		0525E0092BA6D58D003974F7 /* calcButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525E0082BA6D58D003974F7 /* calcButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0525DFF12BA6CEAC003974F7 /* CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0525DFF52BA6CEAC003974F7 /* CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITests.swift; sourceTree = "<group>"; };
 		0525DFF72BA6CEAC003974F7 /* CalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0525E0052BA6CFED003974F7 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		0525E0082BA6D58D003974F7 /* calcButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				0525DFDA2BA6CEAB003974F7 /* CalcApp.swift */,
 				0525DFDC2BA6CEAB003974F7 /* ContentView.swift */,
+				0525E0072BA6D544003974F7 /* model */,
+				0525E0042BA6CF9F003974F7 /* views */,
 				0525DFDE2BA6CEAC003974F7 /* Assets.xcassets */,
 				0525DFE02BA6CEAC003974F7 /* Preview Content */,
 			);
@@ -125,6 +131,22 @@
 				0525DFF72BA6CEAC003974F7 /* CalcUITestsLaunchTests.swift */,
 			);
 			path = CalcUITests;
+			sourceTree = "<group>";
+		};
+		0525E0042BA6CF9F003974F7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0525E0052BA6CFED003974F7 /* home.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0525E0072BA6D544003974F7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0525E0082BA6D58D003974F7 /* calcButtons.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0525E0062BA6CFED003974F7 /* home.swift in Sources */,
 				0525DFDD2BA6CEAB003974F7 /* ContentView.swift in Sources */,
+				0525E0092BA6D58D003974F7 /* calcButtons.swift in Sources */,
 				0525DFDB2BA6CEAB003974F7 /* CalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
